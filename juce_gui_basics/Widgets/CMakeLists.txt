@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.22)
+project(Widgets)
+if (NOT JUCE_FOUND)
+  find_package(JUCE CONFIG REQUIRED)
+endif ()
+
+add_subdirectory(ComboBox)
+add_subdirectory(ImageComponent)
+add_subdirectory(Label)
+add_subdirectory(ListBox)
+add_subdirectory(ProgressBar)
+add_subdirectory(Slider)
