@@ -612,3 +612,33 @@ events:
         
       exitCode: 1
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/ateam/.local/lib/cmake/JUCE-8.0.10/JUCECheckAtomic.cmake:73 (try_compile)"
+      - "/home/ateam/.local/lib/cmake/JUCE-8.0.10/JUCECheckAtomic.cmake:128 (_juce_create_atomic_target)"
+      - "/home/ateam/.local/lib/cmake/JUCE-8.0.10/JUCEModuleSupport.cmake:57 (include)"
+      - "/home/ateam/.local/lib/cmake/JUCE-8.0.10/JUCEConfig.cmake:60 (include)"
+      - "CMakeLists.txt:4 (find_package)"
+    directories:
+      source: "/home/ateam/workspace/positivegrid/Examples_JUCE/build/check_atomic_dir_KRmFx6SaXOhnm6Du/CMakeFiles/CMakeTmp"
+      binary: "/home/ateam/workspace/positivegrid/Examples_JUCE/build/check_atomic_dir_KRmFx6SaXOhnm6Du/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DJUCE_USE_CURL=0"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "compile_result"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ateam/workspace/positivegrid/Examples_JUCE/build/check_atomic_dir_KRmFx6SaXOhnm6Du/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_b32c4
+        [1/2] /usr/bin/c++   -DJUCE_USE_CURL=0  -std=c++17 -o CMakeFiles/cmTC_b32c4.dir/check_atomic_JXqR3RgMylqqoEu2.cpp.o -c /home/ateam/workspace/positivegrid/Examples_JUCE/build/check_atomic_JXqR3RgMylqqoEu2.cpp
+        [2/2] : && /usr/bin/c++ -DJUCE_USE_CURL=0  CMakeFiles/cmTC_b32c4.dir/check_atomic_JXqR3RgMylqqoEu2.cpp.o -o cmTC_b32c4   && :
+        
+      exitCode: 0
+...

@@ -324,6 +324,15 @@ DisplayInformations_IS_TOP_LEVEL:STATIC=OFF
 DisplayInformations_SOURCE_DIR:STATIC=/home/ateam/workspace/positivegrid/Examples_JUCE/juce_gui_basics/Others/DisplayInformations
 
 //Value Computed by CMake
+GainPlugin_BINARY_DIR:STATIC=/home/ateam/workspace/positivegrid/Examples_JUCE/build/juce_audio_plugins/GainPlugin
+
+//Value Computed by CMake
+GainPlugin_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+GainPlugin_SOURCE_DIR:STATIC=/home/ateam/workspace/positivegrid/Examples_JUCE/juce_audio_plugins/GainPlugin
+
+//Value Computed by CMake
 HelloWorldAlertWindow2_BINARY_DIR:STATIC=/home/ateam/workspace/positivegrid/Examples_JUCE/build/juce_gui_basics/HelloWorlds/HelloWorldAlertWindow2
 
 //Value Computed by CMake
@@ -688,7 +697,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=36
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=38
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -821,7 +830,7 @@ __pkg_config_checked_juce_graphics_LINUX_DEPS:INTERNAL=1
 __pkg_config_checked_juce_opengl_LINUX_DEPS:INTERNAL=1
 __pkg_config_checked_package_to_be_found:INTERNAL=1
 //Result of TRY_COMPILE
-compile_result:INTERNAL=FALSE
+compile_result:INTERNAL=TRUE
 juce_audio_devices_LINUX_DEPS_CFLAGS:INTERNAL=-I/usr/include
 juce_audio_devices_LINUX_DEPS_CFLAGS_I:INTERNAL=
 juce_audio_devices_LINUX_DEPS_CFLAGS_OTHER:INTERNAL=

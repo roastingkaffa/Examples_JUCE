@@ -36,7 +36,9 @@
 		"/home/ateam/workspace/positivegrid/Examples_JUCE/build/juce_gui_basics/Widgets/Slider/cmake_install.cmake",
 		"/home/ateam/workspace/positivegrid/Examples_JUCE/build/juce_gui_basics/Others/cmake_install.cmake",
 		"/home/ateam/workspace/positivegrid/Examples_JUCE/build/juce_gui_basics/Others/DisplayInformations/cmake_install.cmake",
-		"/home/ateam/workspace/positivegrid/Examples_JUCE/build/juce_gui_basics/Others/ProgressBarCircular/cmake_install.cmake"
+		"/home/ateam/workspace/positivegrid/Examples_JUCE/build/juce_gui_basics/Others/ProgressBarCircular/cmake_install.cmake",
+		"/home/ateam/workspace/positivegrid/Examples_JUCE/build/juce_audio_plugins/cmake_install.cmake",
+		"/home/ateam/workspace/positivegrid/Examples_JUCE/build/juce_audio_plugins/GainPlugin/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

@@ -1,0 +1,30 @@
+#!/bin/bash
+# Simple Gain Plugin 啟動腳本
+
+echo "================================================"
+echo "  啟動 Simple Gain Plugin (Standalone)"
+echo "================================================"
+echo ""
+echo "插件功能："
+echo "  - 音訊增益控制 (0.0x 到 2.0x)"
+echo "  - 旋鈕式滑桿界面"
+echo "  - 即時參數調整"
+echo "  - VST3 / Standalone 雙格式支援"
+echo ""
+echo "測試項目："
+echo "  1. 視窗正常開啟"
+echo "  2. 旋轉 Gain 旋鈕調整增益"
+echo "  3. 數值即時顯示更新"
+echo "  4. 播放音訊測試增益效果"
+echo ""
+echo "啟動中..."
+echo "================================================"
+echo ""
+
+cd "$(dirname "$0")/build"
+"./juce_audio_plugins/GainPlugin/GainPlugin_artefacts/Release/Standalone/Simple Gain"
+
+echo ""
+echo "================================================"
+echo "插件已關閉"
+echo "================================================"

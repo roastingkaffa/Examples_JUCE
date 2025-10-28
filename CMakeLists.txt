@@ -27,3 +27,6 @@ add_subdirectory(juce_gui_basics)
 #add_subdirectory(juce_osc)
 #add_subdirectory(juce_product_unlocking)
 #add_subdirectory(juce_video)
+
+# Audio plugins examples
+add_subdirectory(juce_audio_plugins)
